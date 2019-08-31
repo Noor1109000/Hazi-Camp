@@ -1,0 +1,281 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)and (max-width: 5000.98px){
+
+
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo_bottom {
+        position: absolute;
+        left: 80px;
+        height: 100px;
+        width: 90%;
+    }
+
+    div#navbarNavDropdown ul li a {
+        margin: 5px 0px;
+        padding-right: 10px;
+        padding: 0px 5px;
+        border-right: 0px;
+        font-size: 14px;
+    }
+
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .head_top {
+        padding-bottom: 20px;
+    }
+
+    div#navbarNav ul li a {
+        font-size: 10px;
+     
+    }
+
+    .context {
+        text-align: center;
+    }
+  
+    .context ul{
+        margin: 0 auto;
+    }
+
+    .context ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .signUp {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+
+    .logo_bottom {
+        position: absolute;
+        top: -125px;
+        left: 30px;
+        height: 100px;
+        z-index: 100;
+        width: 25%;
+    }
+
+    .sign{
+        display: none;
+    }
+
+
+
+    div#navbarNavDropdown ul li a {
+        border-right: 0px;
+    
+    }
+    .mobile_number{
+        display: none !important;
+    }
+
+    #topAgency {
+        height: 1070px;
+    }
+
+    .topAgency_title.m-auto h1 {
+        font-size: 1.8rem;
+   }
+   .topAgency_title hr.hr::before {
+    top: 114px;
+    }
+
+    .inner_content {
+        margin-bottom: 15px;
+    }
+
+    .foot_top p {
+        font-size: 16px;
+    }
+
+    .sistern_content{
+        display: none;
+    }
+
+    footer.foot_wrapper.foot_wrapper::before {
+        height: 935px;
+  
+    }
+
+  
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .logo{
+        display: none;
+    }
+
+    div#navbarNavDropdown ul li a {
+        border-right: 0px;
+    
+    }
+
+    div#navbarNav ul li a {
+        font-size: 10px;
+     
+    }
+
+    li.nav-item.custom_nav_item::after {
+        opacity: 0;
+    }
+
+    li.nav-item.custom_nav_item::before {
+        opacity: 0;
+    }
+
+    .mobile_number{
+        display: none;
+    }
+
+    .topAgency_title.m-auto h1 {
+        font-size: 1.8rem;
+   }
+
+
+    .topAgency_title hr.hr::before {
+        top: 114px;
+        }
+
+        .inner_content {
+            margin-bottom: 15px;
+        }
+
+        .foot_top p {
+            font-size: 16px;
+        }
+
+        .sistern_content{
+            display: none;
+        }
+
+        footer.foot_wrapper.foot_wrapper::before {
+            height: 935px;
+      
+        }
+
+
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  
+    .signUp{
+        display: none !important;
+    }
+
+    .logo_bottom {
+        position: absolute;
+        text-align: center;
+        height: 120px;
+        z-index: 100;
+        width: 70%;
+        top: -43px;
+        left: 130px;
+    }
+
+    .logo_bottom img{
+        width: 70%;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .logo{
+        display: none;
+    }
+    .context{
+        display: none;
+    }
+
+    div#navbarNavDropdown ul li a {
+        border-right: 0px;
+    
+    }
+
+    li.nav-item.custom_nav_item::after {
+        opacity: 0;
+    }
+
+    li.nav-item.custom_nav_item::before {
+        opacity: 0;
+    }
+
+    .mobile_number{
+        display: none;
+    }
+
+    .position-absolute.slider_menu nav {
+        background: #f3f2f2;
+        height: 100%;
+    }
+
+   
+    #topAgency {
+        height: 2000px;
+    }
+
+    .topAgency_title.m-auto h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .topAgency_title hr.hr::before {
+        top: 141px;
+        height: 12px;
+
+        }
+
+ 
+        .inner_content {
+            margin-bottom: 15px;
+        }
+
+
+        .choose_title h1 {
+            font-size: 22px;
+        }
+
+        #choose hr.hr::before {
+      
+            top: 90px;
+        }
+   
+        #travelAgency hr.hr.hr::before {
+            width: 20%;
+            content: "";
+            background: #D2AE0B;
+            z-index: 9;
+            position: absolute;
+            left: 42%;
+            top: 66px;
+            height: 9px;
+        }
+
+    .sistern_content{
+        display: none;
+    }
+
+    h3.foot_text {
+        font-size: 18px;
+    }
+
+    footer.foot_wrapper.foot_wrapper::before {
+        height: 945px;
+  
+    }
+
+}
+
