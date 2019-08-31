@@ -183,7 +183,7 @@
         text-align: center;
         height: 120px;
         z-index: 100;
-        width: 70%;
+        width: 56%;
         top: -43px;
         left: 130px;
     }
@@ -211,6 +211,10 @@
 
     li.nav-item.custom_nav_item::before {
         opacity: 0;
+    }
+
+    ul.navbar-nav.text-center.foot_register_menu {
+        flex-direction: column;
     }
 
     .mobile_number{
@@ -267,6 +271,8 @@
     .sistern_content{
         display: none;
     }
+
+    
 
     h3.foot_text {
         font-size: 18px;
